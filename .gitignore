@@ -1,0 +1,106 @@
+# .gitignore для проекта распознавания цифр
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sbin/
+share/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+pytorch_env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dataset files (если они большие)
+data/
+mnist_png/
+*.pth
+*.pt
+*.tar.gz
+*.zip
+
+# Ваши файлы из скриншота (оставьте только код)
+# Уберите комментарий с тех, которые хотите игнорировать:
+
+# accuracy_vs_snr.png
+# confusion_matrix_clean.png
+# hist_snr_*.png
+# training_history.png
+# mnist_cnn_model.pth
+# sample_digit.jpg/png
+
+# Но лучше игнорировать ВСЕ графики и модели:
+*.png
+*.jpg
+*.jpeg
+*.pth
+*.pt
+*.h5
+*.model
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Конфигурационные файлы
+config.yaml
+config.json
+*.cfg
+
+# Документация
+docs/_build/
+
+# Тестовые данные
+test_results/
+predictions/
+output/
+
+# PyTorch checkpoints
+checkpoints/
+runs/
